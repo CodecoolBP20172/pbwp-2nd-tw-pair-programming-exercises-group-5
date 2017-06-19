@@ -1,8 +1,13 @@
-def palindrome(str):
-    return
+a=str
+def palindrome(word):
+    if str(word[::-1].lower().replace(" ", "")) == str(word).lower().replace(" ", ""):
+        return True
+    else:
+        return False
 
 
 def main():
+    palindrome(a)
     return
 
 
